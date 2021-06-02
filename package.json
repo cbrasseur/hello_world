@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "node index.js"
+    "build": "node index.js",
+    "eslint": "eslint ."
   },
   "repository": {
     "type": "git",
