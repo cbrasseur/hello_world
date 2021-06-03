@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-module.exports = createIndexFile = () => {
+const createIndexFile = () => {
     if (!fs.existsSync('build')) {
         fs.mkdirSync('build')
     }
@@ -8,3 +8,5 @@ module.exports = createIndexFile = () => {
 };
 
 createIndexFile();
+
+module.exports = createIndexFile;
