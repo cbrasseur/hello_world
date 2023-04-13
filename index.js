@@ -4,7 +4,7 @@ const createIndexFile = () => {
     if (!fs.existsSync('build')) {
         fs.mkdirSync('build')
     }
-    fs.writeFileSync('build/index.html', 'Hello bonjour');
+    fs.writeFileSync('build/index.html', 'Hello bonsoir');
 };
 
 createIndexFile();
