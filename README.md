@@ -5,4 +5,4 @@ Modif test
 
 Check https://cbrasseur.github.io/hello_world/ to see github pages after deployment
 
-Launch CI/CD
+Launch CI/CD BIS
