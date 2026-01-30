@@ -6,5 +6,5 @@ test("hello_world", () => {
 
     const content = fs.readFileSync(`${__dirname}/../build/index.html`, 'utf-8');
 
-    expect(content).toEqual('Bonjour les CDA, on est le 30/06/2025');
+    expect(content).toEqual('Bonjour les DFS, on est le 30/01/2026');
 })
