@@ -6,5 +6,5 @@ test("hello_world", () => {
 
     const content = fs.readFileSync(`${__dirname}/../build/index.html`, 'utf-8');
 
-    expect(content).toEqual('Salut les ESI CYB 25-27 !');
+    expect(content).toEqual('Salut, on fait un déploiement continu avec les incubateurs');
 })
